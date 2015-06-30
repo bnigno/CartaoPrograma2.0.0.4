@@ -1,0 +1,10 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@android:id/text1"
+style="?android:attr/spinnerDropDownItemStyle"
+android:singleLine="false"
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+android:ellipsize="none" 
+android:textSize="15dp"
+
+/><!-- From: file:/C:/Users/Usuario/AndroidstudioProjects/CartaoPrograma2.0.0.4/app/src/main/res/layout/simple_spinner_dropdown_item.xml -->

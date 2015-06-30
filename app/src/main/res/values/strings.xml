@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cartão Programa2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+ 	<string name="menu_legalnotices">Legal Notices</string>
+
+    <string name="persolalizar">PERSONALIZAR</string>
+    <string name="mancha">MANCHA</string>
+    <string name="ajuda">AJUDA</string>
+    <string name="ocorrencia">OCORRÊNCIA</string>
+    <string name="pontos_base">Pontos Base</string>
+    <string name="notificacoes">Notificações</string>
+
+    <string name="localizacao_atual">Localização Atual</string>
+    <string name="linha_da_rota">Linha da Rota</string>
+    <string name="area_de_atuacao">Area de Atuação</string>
+    <string name="mancha_criminal">Mancha criminal</string>
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+
+    <string name="cartao_programa">CARTÃO PROGRAMA</string>
+    <string name="digite_seu_cpf">Digite seu CPF</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="codigo_de_seguranca">Código de Segurança</string>
+    <string name="sobre">Sobre</string>
+</resources>

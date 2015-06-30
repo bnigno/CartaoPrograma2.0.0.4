@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d3d3d3"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sigpol">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/cartao_programa"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <!-- Login Form -->
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip"
+
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true">
+
+            <!-- Username Label -->
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/digite_seu_cpf"
+                android:singleLine="true"
+                android:textColor="#000000" >
+
+                <requestFocus />
+            </EditText>
+
+            <!-- Password Label -->
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+                android:background="#FFFFFF"
+                android:hint="@string/digite_sua_senha"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="#000000" />
+
+            <!-- Login button -->
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dip"
+                android:background="#428bca"
+                android:text="@string/codigo_de_seguranca" />
+        </LinearLayout>
+        <!-- Login Form Ends -->
+
+        <Button
+            android:id="@+id/Sobre"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#428bca"
+            android:onClick="Sobre"
+            android:text="@string/sobre" />
+
+        <Button
+            android:id="@+id/Legal"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#428bca"
+            android:onClick="Legal"
+            android:text="@string/menu_legalnotices" />
+
+    </RelativeLayout>
+
+</ScrollView>
