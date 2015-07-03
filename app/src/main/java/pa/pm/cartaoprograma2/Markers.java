@@ -383,8 +383,6 @@ public class Markers {
 												});
 											}
 											if (TYPE.equals("routePoint")) {
-												System.out.println("11º AAAAAAAAAAAAAAAAA: ");
-
 
 												Location3 = new LatLng(Double
 														.parseDouble(LAT),
