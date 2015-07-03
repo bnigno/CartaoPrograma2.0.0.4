@@ -215,8 +215,8 @@ public class Markers {
 							}
 						});
 					}
-
 					/* Fim dados locais */
+
 					if (!LoginActivity.idCard.equals("test")) {
 						String url1 = "http://productiveinc.com/xmlObterPontos.php?idCard="
 								+ LoginActivity.idCard;
