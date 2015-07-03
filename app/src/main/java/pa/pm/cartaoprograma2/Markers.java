@@ -106,7 +106,7 @@ public class Markers {
 			{
 				public void run() {
 					/* Teste dados locais */
-					if (!LoginActivity.idCard.equals("test")) {
+					if (LoginActivity.idCard.equals("test")) {
 						n = 0;
 						m = -1;
 						while (n < 8) {
@@ -215,8 +215,9 @@ public class Markers {
 							}
 						});
 					}
+
 					/* Fim dados locais */
-					if (LoginActivity.idCard.equals("test")) {
+					if (!LoginActivity.idCard.equals("test")) {
 						String url1 = "http://productiveinc.com/xmlObterPontos.php?idCard="
 								+ LoginActivity.idCard;
 
@@ -230,7 +231,6 @@ public class Markers {
 								@Override
 								public void run() {
 									getMarkers(myMap);
-
 								}
 							}, 10000);
 						} else {
@@ -259,13 +259,13 @@ public class Markers {
 							if (nl != null) {
 								System.out.println("MarkerLL: "
 										+ nl.getLength());
-								// for (int i = 0; i < nl.getLength(); i++) {
-								i = 0;
-								while (i < nl.getLength()) {
+								 for (int i = 0; i < nl.getLength(); i++) {
+							//	i = 0;
+
+							//	while (i < nl.getLength()) {
 									if (i > m) {
 										m = i;
 										try {
-											//
 											HashMap<String, String> map = new HashMap<String, String>();
 											Element e = (Element) nl.item(i);
 
@@ -307,6 +307,8 @@ public class Markers {
 											 * while(x<1){try {
 											 * Thread.sleep(100);
 											 */
+
+
 											if (TYPE.equals("basePoint")) {
 
 												String de = "\nDescrição:"
@@ -351,13 +353,12 @@ public class Markers {
 														addMarkers(myMap,
 																Location1, f,
 																hx, 0);
-														i++;
 														h++;
-
 													}
 												});
 											}
 											if (TYPE.equals("globalPoint")) {
+
 												l = "Nome:\n" + DESCRIPTION;
 
 												de = "Descrição:\n"
@@ -378,13 +379,12 @@ public class Markers {
 														addMarkers(myMap,
 																Location2, l,
 																de, 1);
-
-														i++;
-
 													}
 												});
 											}
 											if (TYPE.equals("routePoint")) {
+												System.out.println("11º AAAAAAAAAAAAAAAAA: ");
+
 
 												Location3 = new LatLng(Double
 														.parseDouble(LAT),
@@ -398,13 +398,8 @@ public class Markers {
 														Polylines.addpolylines(
 																myMap,
 																Location3);
-														System.out
-														.println("Markeru: "
-																+ i
-																+ "   "
-																+ Location3);
-														i++;
-
+														//System.out
+														//.println("Markeru: " + i + "   " + Location3);
 													}
 												});
 											}
@@ -425,7 +420,6 @@ public class Markers {
 
 									}
 								});
-
 							}
 						}
 					}
