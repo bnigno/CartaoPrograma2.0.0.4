@@ -12,6 +12,9 @@ import com.google.android.gms.maps.model.PolylineOptions;
 
 public class Polylines{
 	private String name;
+
+	public static GoogleMap map;
+
 	public Polylines(String name) {
 		set(name);
 	}
@@ -30,16 +33,27 @@ public class Polylines{
 	public synchronized String getName(){
 		return this.name;
 	}
+
 	static ArrayList<LatLng> points = new ArrayList<LatLng>();
 	static PolylineOptions lineOptions =  new PolylineOptions();
 	static Polyline polyline;
+
 	public static void addpolylines(final GoogleMap myMap,LatLng Location) {
 		points.add(Location);
 
 	}
-		public static void addall(final GoogleMap myMap){
-			polyline = myMap.addPolyline(new PolylineOptions()
+
+	public static void addall(final GoogleMap myMap){
+
+		map = myMap;//será utilizado para mudança de cor
+
+		polyline = myMap.addPolyline(lineOptions
 			.addAll(points)
 			.color(Color.parseColor(Config.colorLinhaDaRota)));
-		}
+	}
+
+	public static void addColor(String c){// é utilizada em Config na função "salvar"
+		polyline = map.addPolyline(lineOptions
+				.color(Color.parseColor(c)));
+	}
 }

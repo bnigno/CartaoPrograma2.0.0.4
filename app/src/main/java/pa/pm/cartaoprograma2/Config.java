@@ -33,7 +33,7 @@ public class Config extends Activity {
 	String colorAreaDeAtuacao1;
 	String colorMancha1;	
 	String colorLocalizacaoAtual1;
-	@Override    
+	@Override
 	public void onCreate(Bundle icicle){   
 		super.onCreate(icicle);        
 		colorLocalizacaoAtual1=colorLocalizacaoAtual;
@@ -308,6 +308,9 @@ public class Config extends Activity {
 	return color;
 	}
 	public void Salvar(View v){
+
+		Polylines.addColor(colorLinhaDaRota);
+
 		finish();
 	}
 	@Override
