@@ -20,22 +20,31 @@ import android.graphics.Color;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Spinner;
 
+import pa.pm.localdb.ConfigDataBaseHelper;
+import pa.pm.localdb.DataBaseHelper;
 
 
 public class Config extends Activity {
-	public static String colorCaminhoPercorrido;
-	public static String colorLinhaDaRota;
-	public static String colorAreaDeAtuacao;
-	public static String colorMancha;	
-	public static String colorLocalizacaoAtual;
+	private static String colorCaminhoPercorrido;
+	private static String colorLinhaDaRota;
+	private static String colorAreaDeAtuacao;
+	public static String colorMancha;
+	private static String colorLocalizacaoAtual;
 	//String colorCaminhoPercorrido1;
 	String colorLinhaDaRota1;
 	String colorAreaDeAtuacao1;
 	String colorMancha1;	
 	String colorLocalizacaoAtual1;
+
+	static ConfigDataBaseHelper dbConfig;
+
 	@Override
 	public void onCreate(Bundle icicle){   
-		super.onCreate(icicle);        
+		super.onCreate(icicle);
+
+
+		dbConfig = new ConfigDataBaseHelper(getApplicationContext());
+
 		colorLocalizacaoAtual1=colorLocalizacaoAtual;
 		colorLinhaDaRota1=colorLinhaDaRota;
 		colorAreaDeAtuacao1=colorAreaDeAtuacao;
@@ -50,6 +59,7 @@ public class Config extends Activity {
 		addItemsOnManchacriminal();
 		addListenerOnButton4();
 
+
 	}
 	Spinner spinner1;
 	Spinner spinner2;
@@ -60,7 +70,7 @@ public class Config extends Activity {
 
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
 		List<String> list = new ArrayList<String>();
-		String color=colorLocalizacaoAtual;
+		String color = dbConfig.getColorConfig("colorlocalizacaoatual");
 		list.add(Color2(color));
 		if(Color2(color).length()=="AZUL".length()){
 
@@ -120,7 +130,7 @@ public class Config extends Activity {
 
 		spinner2 = (Spinner) findViewById(R.id.spinner2);
 		List<String> list = new ArrayList<String>();
-		String color=colorLinhaDaRota;
+		String color = dbConfig.getColorConfig("colorlinhadarota");
 		list.add(Color2(color));
 		if(Color2(color).length()=="AZUL".length()){
 
@@ -178,7 +188,7 @@ public class Config extends Activity {
 
 		spinner3 = (Spinner) findViewById(R.id.spinner3);
 		List<String> list = new ArrayList<String>();
-		String color=colorAreaDeAtuacao;
+		String color = dbConfig.getColorConfig("colorareadeatuacao");
 		list.add(Color2(color));
 		if(Color2(color).length()=="AZUL".length()){
 
@@ -236,7 +246,7 @@ public class Config extends Activity {
 
 		spinner4 = (Spinner) findViewById(R.id.spinner4);
 		List<String> list = new ArrayList<String>();
-		String color=colorMancha;
+		String color = dbConfig.getColorConfig("colormancha");
 		list.add(Color2(color));
 		if(Color2(color).length()=="AZUL".length()){
 
@@ -308,6 +318,8 @@ public class Config extends Activity {
 	return color;
 	}
 	public void Salvar(View v){
+
+		dbConfig.updateConfig(colorLinhaDaRota, colorAreaDeAtuacao, colorMancha, colorLocalizacaoAtual);
 
 		Polylines.addColor(colorLinhaDaRota);
 

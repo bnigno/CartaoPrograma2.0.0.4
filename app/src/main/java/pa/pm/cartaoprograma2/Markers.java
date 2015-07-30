@@ -100,7 +100,7 @@ public class Markers {
 
 
 
-	public void getMarkers(final GoogleMap myMap) {
+	public void getMarkers(final GoogleMap myMap, final String cor) { //o valor de cor serve para definir a cor da polilinha
 		if (myMap != null) {
 			new Thread(new Runnable()
 			{
@@ -210,7 +210,7 @@ public class Markers {
 						handler.post(new Runnable() {
 							@Override
 							public void run() {
-								Polylines.addall(myMap);
+								Polylines.addall(myMap, cor);
 
 							}
 						});
@@ -230,7 +230,7 @@ public class Markers {
 							handler.postDelayed(new Runnable() {
 								@Override
 								public void run() {
-									getMarkers(myMap);
+									getMarkers(myMap, cor);
 								}
 							}, 10000);
 						} else {
@@ -251,7 +251,7 @@ public class Markers {
 								handler.postDelayed(new Runnable() {
 									@Override
 									public void run() {
-										getMarkers(myMap);
+										getMarkers(myMap, cor);
 
 									}
 								}, 10000);
@@ -414,8 +414,7 @@ public class Markers {
 								handler.post(new Runnable() {
 									@Override
 									public void run() {
-										Polylines.addall(myMap);
-
+										Polylines.addall(myMap, cor);
 									}
 								});
 							}

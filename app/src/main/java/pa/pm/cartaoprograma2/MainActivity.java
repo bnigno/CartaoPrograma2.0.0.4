@@ -26,6 +26,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
+import pa.pm.localdb.ConfigDataBaseHelper;
 import pa.pm.log.CreateFolders;
 import pa.pm.log.Logs;
 import pa.pm.localdb.DataBaseHelper;
@@ -120,6 +121,7 @@ public class MainActivity extends Activity implements LocationSource,
 	TextView end;
 	int t;
 	static DataBaseHelper db;
+	static ConfigDataBaseHelper dbConfig;
 	Button pf;
 	Button config;
 	Button ocorrencia;
@@ -289,8 +291,8 @@ public class MainActivity extends Activity implements LocationSource,
 			polygonsequestro = myMap.addPolygon(new PolygonOptions().add(
 					new LatLng(-1.474531783, -48.45607194), LASTLOCATION,
 					new LatLng(3, 5), new LatLng(0, 0)).strokeColor(
-					Color.parseColor(Config.colorMancha)));
-			polygonsequestro.setFillColor(Color.parseColor(Config.colorMancha));
+					Color.parseColor(dbConfig.getColorConfig("colormancha"))));
+			polygonsequestro.setFillColor(Color.parseColor(dbConfig.getColorConfig("colormancha")));
 		}
 		if (manchax.equals("FURTO")) {
 			if (polygontodas != null) {
@@ -309,8 +311,8 @@ public class MainActivity extends Activity implements LocationSource,
 			polygonfurto = myMap.addPolygon(new PolygonOptions()
 					.add(new LatLng(-1.474531783, -48.45607194), LASTLOCATION,
 							new LatLng(3, 5), new LatLng(0, 0))
-					.strokeColor(Color.parseColor(Config.colorMancha))
-					.fillColor(Color.parseColor(Config.colorMancha)));
+					.strokeColor(Color.parseColor(dbConfig.getColorConfig("colormancha")))
+					.fillColor(Color.parseColor(dbConfig.getColorConfig("colormancha"))));
 
 		}
 		if (manchax.equals("TRAFICO")) {
@@ -331,8 +333,8 @@ public class MainActivity extends Activity implements LocationSource,
 					.add(new LatLng(-1.474531783, -48.45607194),
 							new LatLng(0, 5), new LatLng(3, 5),
 							new LatLng(0, 0))
-					.strokeColor(Color.parseColor(Config.colorMancha))
-					.fillColor(Color.parseColor(Config.colorMancha)));
+					.strokeColor(Color.parseColor(dbConfig.getColorConfig("colormancha")))
+					.fillColor(Color.parseColor(dbConfig.getColorConfig("colormancha"))));
 
 		}
 
@@ -346,7 +348,7 @@ public class MainActivity extends Activity implements LocationSource,
 		if (isInternetPresent) {
 			itens = new ArrayList<ItemListView>();
 			final Markers marker = new Markers();
-			marker.getMarkers(myMap);
+			marker.getMarkers(myMap, dbConfig.getColorConfig("colorlinhadarota"));
 			adapterListView = new AdapterListView(this, itens);
 			int l = adapterListView.getCount();
 			System.out.println("Size: " + l);
@@ -443,7 +445,20 @@ public class MainActivity extends Activity implements LocationSource,
 
 			myMap.setLocationSource(this);
 
-			int cor = transparent(Config.colorMancha);
+			int cor = transparent(dbConfig.getColorConfig("colormancha"));
+
+			String mancha = dbConfig.getColorConfig("colormancha");
+			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! " + mancha);
+
+			String linharota = dbConfig.getColorConfig("colorlinhadarota");
+			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + linharota);
+
+			String localizacao = dbConfig.getColorConfig("colorlocalizacaoatual");
+			System.out.println("################################# " + localizacao);
+
+			String areaatuacao = dbConfig.getColorConfig("colorareadeatuacao");
+			System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ " + areaatuacao);
+
 			if (polygontodas != null) {
 				polygontodas.setFillColor(cor);
 				polygontodas.setStrokeColor(cor);
@@ -586,7 +601,7 @@ public class MainActivity extends Activity implements LocationSource,
 			Canvas canvas = new Canvas(bmp);
 			Paint p = new Paint();
 			p.setStyle(Style.FILL);
-			canvas.drawColor(Color.parseColor(Config.colorLocalizacaoAtual));
+			canvas.drawColor(Color.parseColor(dbConfig.getColorConfig("colorlocalizacaoatual")));
 			canvas.drawCircle(60, 50, 25, p);
 			marker1 = myMap.addMarker(new MarkerOptions()
 					.position(LASTLOCATION).title(descricaocartao)
@@ -682,7 +697,7 @@ public class MainActivity extends Activity implements LocationSource,
 		if (i == 2) {
 			myMap.addPolyline((new PolylineOptions())
 					.add(FIRSTLOCATION, LASTLOCATION).width(linewidth)
-					.color(Color.parseColor(Config.colorCaminhoPercorrido))
+					.color(Color.parseColor("BLACK"))
 					.geodesic(true));
 			myMap.moveCamera(CameraUpdateFactory
 					.newLatLngZoom(LASTLOCATION, 15));
@@ -693,7 +708,7 @@ public class MainActivity extends Activity implements LocationSource,
 		if (i == 4) {
 			myMap.addPolyline((new PolylineOptions())
 					.add(PREVIOUSLOCATION, LASTLOCATION).width(linewidth)
-					.color(Color.parseColor(Config.colorCaminhoPercorrido))
+					.color(Color.parseColor("BLACK"))
 					.geodesic(true));
 
 			if (mp) {
@@ -1187,7 +1202,7 @@ public class MainActivity extends Activity implements LocationSource,
 
 				lineOptions.addAll(points);
 				lineOptions.width(linewidth);
-				lineOptions.color(Color.parseColor(Config.colorLinhaDaRota));
+				lineOptions.color(Color.parseColor(dbConfig.getColorConfig("colorlinhadarota")));
 			}
 
 			myMap.addPolyline(lineOptions);
@@ -1440,14 +1455,14 @@ public class MainActivity extends Activity implements LocationSource,
 	}
 
 	public void circle() {
-		System.out.println("Color change" + Config.colorLocalizacaoAtual);
+		System.out.println("Color change" + dbConfig.getColorConfig("colorlocalizacaoatual"));
 		if (myCircle == null) {
 			CircleOptions circleOptions = new CircleOptions()
 					.center(LASTLOCATION)
 					// set center
 					.radius(accuracy)
 					// set radius in meters
-					.fillColor(Color.parseColor(Config.colorLocalizacaoAtual))
+					.fillColor(Color.parseColor(dbConfig.getColorConfig("colorlocalizacaoatual")))
 					.strokeColor(Color.BLACK).strokeWidth(1);
 
 			myCircle = myMap.addCircle(circleOptions);
@@ -1455,7 +1470,7 @@ public class MainActivity extends Activity implements LocationSource,
 			myCircle.setCenter(LASTLOCATION);
 			myCircle.setRadius(accuracy);
 			myCircle.setFillColor(Color
-					.parseColor(Config.colorLocalizacaoAtual));
+					.parseColor(dbConfig.getColorConfig("colorlocalizacaoatual")));
 		}
 	}
 
@@ -1509,11 +1524,11 @@ public class MainActivity extends Activity implements LocationSource,
 
 		mp = false;
 		idLast = 0;
-		Config.colorCaminhoPercorrido = "BLUE";
-		Config.colorLinhaDaRota = "GREEN";
-		Config.colorAreaDeAtuacao = "GREEN";
-		Config.colorMancha = "RED";
-		Config.colorLocalizacaoAtual = "BLUE";
+		//Config.colorCaminhoPercorrido = "BLUE";
+		//Config.colorLinhaDaRota = "GREEN";
+		//Config.colorAreaDeAtuacao = "GREEN";
+		//Config.colorMancha = "RED";
+		//Config.colorLocalizacaoAtual = "BLUE";
 		pointsrota = new ArrayList<LatLng>();
 		ocx = true;
 		imagemap = false;
@@ -1555,6 +1570,7 @@ public class MainActivity extends Activity implements LocationSource,
 		});
 
 		db = new DataBaseHelper(getApplicationContext());
+		dbConfig = new ConfigDataBaseHelper(getApplicationContext());
 		logx(4, ocx);
 		myCriteria = new Criteria();
 		batteryProfile();

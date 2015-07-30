@@ -10,6 +10,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
+import pa.pm.localdb.ConfigDataBaseHelper;
 import pa.pm.log.CreateFolders;
 import pa.pm.log.Logs;
 import pa.pm.localdb.DataBaseHelper;

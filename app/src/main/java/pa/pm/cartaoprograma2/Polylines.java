@@ -43,13 +43,13 @@ public class Polylines{
 
 	}
 
-	public static void addall(final GoogleMap myMap){
+	public static void addall(final GoogleMap myMap, String cor){
 
 		map = myMap;//será utilizado para mudança de cor
 
 		polyline = myMap.addPolyline(lineOptions
 			.addAll(points)
-			.color(Color.parseColor(Config.colorLinhaDaRota)));
+			.color(Color.parseColor(cor)));
 	}
 
 	public static void addColor(String c){// é utilizada em Config na função "salvar"
