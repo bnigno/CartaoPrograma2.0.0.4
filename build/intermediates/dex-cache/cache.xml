@@ -9,41 +9,6 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-6e970929687c74e3c08c6f8246611e8e99814f7a.jar" />
     </item>
     <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-94ff0e6ce4383db6d9411ffc85b6746bb75cf804.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-49d684b2d2139e5c8edf4e9f8597d13626e47b3c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-5e9c7e564fed974ad1e8ba44547c5c05f144e748.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-16babf84a9ab75535774f63f4eec85afa8ed1ced.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-959fabd75dc1b4fd09f55297764dc9adc58b6dd7.jar" />
-    </item>
-    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -65,18 +30,18 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-e0e6f1ce39c60173289edc7cb20cd2640aed12c2.jar" />
     </item>
     <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-959fabd75dc1b4fd09f55297764dc9adc58b6dd7.jar" />
+    </item>
+    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-ab8c8e2b06778dc3fac6a85a11f2226e1040bfed.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-05e3a118dfd28e7f383ca0cf9f1e16d6123980ab.jar" />
     </item>
     <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
@@ -86,6 +51,20 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-f74571ea28641a4274ca4871b317997739d0ea7d.jar" />
     </item>
     <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-26b413128cb0f6783367e8fc2ceca34263c5e5d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-05e3a118dfd28e7f383ca0cf9f1e16d6123980ab.jar" />
+    </item>
+    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -93,11 +72,46 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-90b557f7fc4cbf02bbf0fb0294f563507d04f762.jar" />
     </item>
     <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-26b413128cb0f6783367e8fc2ceca34263c5e5d5.jar" />
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-5e625681b9999fcb955cdfa291da54f3286d9799.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-a03f450147d8500b6fa68d0d0b474ae7479306cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6f8b7d6d89bf05ef6bf3b705fb926c6ffaedd5bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-5e9c7e564fed974ad1e8ba44547c5c05f144e748.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-49d684b2d2139e5c8edf4e9f8597d13626e47b3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-16babf84a9ab75535774f63f4eec85afa8ed1ced.jar" />
     </item>
     <item
         jar="C:\Users\Usuario\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
@@ -128,18 +142,18 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-234dcc773540e4f7c43bc6a315068a1e467bcd4b.jar" />
     </item>
     <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-9492c3afee725bc1146efa5c79dd8bf5ebc56cc0.jar" />
+    </item>
+    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-3b2f14788860876138a1f053f4f56f7eb761e28d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-fe790d73c77868fcccdcfff63699990b9e929a59.jar" />
     </item>
     <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
@@ -149,39 +163,25 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-ed56f90ac96209e7ed9bede8635396daf409fde8.jar" />
     </item>
     <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-fe790d73c77868fcccdcfff63699990b9e929a59.jar" />
+    </item>
+    <item
+        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-94ff0e6ce4383db6d9411ffc85b6746bb75cf804.jar" />
+    </item>
+    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-3c60751a0dc0b5cc81fc7dee77ab79799ee6f968.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-5e625681b9999fcb955cdfa291da54f3286d9799.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-a03f450147d8500b6fa68d0d0b474ae7479306cd.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6f8b7d6d89bf05ef6bf3b705fb926c6ffaedd5bc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\classes-9492c3afee725bc1146efa5c79dd8bf5ebc56cc0.jar" />
     </item>
 
 </items>
