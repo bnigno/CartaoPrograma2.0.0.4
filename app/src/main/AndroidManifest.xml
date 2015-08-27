@@ -102,6 +102,14 @@
             </intent-filter>
         </activity>
         <service android:enabled="true" android:name="pa.pm.cartaoprograma2.SendService" />
+
+        <service android:name="pa.pm.cartaoprograma2.CheckinService" >
+            <intent-filter>
+                <action android:name="CHECKIN_SERVICE_CARTAOPROGRAMA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
         <meta-data
     android:name="com.google.android.gms.version"
     android:value="@integer/google_play_services_version" />

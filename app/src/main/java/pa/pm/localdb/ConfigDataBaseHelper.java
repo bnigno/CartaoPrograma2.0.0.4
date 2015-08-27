@@ -76,8 +76,6 @@ public class ConfigDataBaseHelper extends SQLiteOpenHelper {
         Cursor cursor = db.query(true, CONFIG_TABLE, new String[]{itemConfig}, "idconfig=?", new String[]{"0"}, null, null, null, null);
         if (cursor.moveToFirst()) {
             cor = cursor.getString(0);
-            System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ " +cursor.getString(0));
-            System.out.println("LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL " + cor);
         }
         cursor.close();
         db.close();

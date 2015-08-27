@@ -48,8 +48,8 @@ public class Polylines{
 		map = myMap;//será utilizado para mudança de cor
 
 		polyline = myMap.addPolyline(lineOptions
-			.addAll(points)
-			.color(Color.parseColor(cor)));
+				.addAll(points)
+				.color(Color.parseColor(cor)));
 	}
 
 	public static void addColor(String c){// é utilizada em Config na função "salvar"

@@ -371,7 +371,7 @@ public class LoginActivity extends Activity implements OnInitListener {
 
 	public void Sobre(View view) {
         String LicenseInfo = "Versão 2.0.0.4 Desenvolvido por:\nBruno Lima\nFelipe Nazareth\nIuri Raiol\nLourdilene Silva\nLuiz Wagner\nTiago Antero" +
-                "\n\nVersão 2.0.0.5 Desenvolvido por:\nAdailton Lima \nDiogo Ferreira \nFelipe Benigno \nKaique Cruz \nWeslley Sammyr";
+                "\n\nVersão 2.0.0.5 Desenvolvido por:\nAdailton Lima \nDiogo Ferreira \nFelipe Benigno \nKaique Cruz \nPedro Gomes \nRodrigo Quites \nWeslley Sammyr";
 		AlertDialog.Builder LicenseDialog = new AlertDialog.Builder(
 				LoginActivity.this);
 		LicenseDialog.setTitle("Sobre");

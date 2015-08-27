@@ -12,13 +12,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 import org.json.JSONObject;
@@ -102,7 +102,7 @@ public class MainActivity extends Activity implements LocationSource,
 		LocationListener, OnItemClickListener {
 
 	final int RQS_GooglePlayServices = 1;
-	private GoogleMap myMap;
+	public static GoogleMap myMap;
 	TextView tvLocInfo;
 	Logs Logs;
 	String hora, acao, codigo, usuario;
@@ -177,10 +177,16 @@ public class MainActivity extends Activity implements LocationSource,
 	Polygon polygontrafico;
 	Marker marker2;
 
+	static MainActivity instancia;
+
+	Intent intentCheckinService;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main2);
+
+		instancia = this;
 
 		proximityIntent = new Intent("pa.pm.cartaoprograma2.proximity");
 		pendingIntent = PendingIntent.getActivity(getBaseContext(), 0,
@@ -188,14 +194,17 @@ public class MainActivity extends Activity implements LocationSource,
 		runOnUiThread(new Runnable() {
 			public void run() {
 
+				intentCheckinService = new Intent("CHECKIN_SERVICE_CARTAOPROGRAMA");
+				startService(intentCheckinService);
+
 				iniciar();
+
 			}
 		});
 
 	}
 
 	public void addItemsOnSpinner1() {
-
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
 		List<String> list = new ArrayList<String>();
 		list.add("OCULTAR");
@@ -219,7 +228,7 @@ public class MainActivity extends Activity implements LocationSource,
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
 		spinner1.setOnItemSelectedListener(new OnItemSelectedListener() {
 			public void onItemSelected(AdapterView<?> arg0, View arg1,
-					int arg2, long arg3) {
+									   int arg2, long arg3) {
 
 				manchax = spinner1.getSelectedItem().toString();
 				Log.e("Selected item : ", manchax);
@@ -447,18 +456,6 @@ public class MainActivity extends Activity implements LocationSource,
 
 			int cor = transparent(dbConfig.getColorConfig("colormancha"));
 
-			String mancha = dbConfig.getColorConfig("colormancha");
-			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! " + mancha);
-
-			String linharota = dbConfig.getColorConfig("colorlinhadarota");
-			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + linharota);
-
-			String localizacao = dbConfig.getColorConfig("colorlocalizacaoatual");
-			System.out.println("################################# " + localizacao);
-
-			String areaatuacao = dbConfig.getColorConfig("colorareadeatuacao");
-			System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ " + areaatuacao);
-
 			if (polygontodas != null) {
 				polygontodas.setFillColor(cor);
 				polygontodas.setStrokeColor(cor);
@@ -484,7 +481,6 @@ public class MainActivity extends Activity implements LocationSource,
 			GooglePlayServicesUtil.getErrorDialog(resultCode, this,
 					RQS_GooglePlayServices);
 		}
-
 	}
 
 	public int transparent(String col) {
@@ -591,7 +587,7 @@ public class MainActivity extends Activity implements LocationSource,
 			if (i == 4) {
 				PREVIOUSLOCATION = LASTLOCATION;
 				String previous = "Previous" + PREVIOUSLOCATION.toString();
-				;
+
 				Log.d("Background Task", previous);
 			}
 			LASTLOCATION = latlng;
@@ -611,7 +607,6 @@ public class MainActivity extends Activity implements LocationSource,
 			logx(10, ocx);
 			check();
 		}
-
 	}
 
 	public static double lastLocationLat() {
@@ -858,7 +853,7 @@ public class MainActivity extends Activity implements LocationSource,
 
 											runOnUiThread(new Runnable() {
 												public void run() {
-													// caminhoPercorrido();
+													 caminhoPercorrido();
 													logx(10, ocx);
 													check();
 													// getBatteryLevel();
@@ -1660,7 +1655,6 @@ public class MainActivity extends Activity implements LocationSource,
 
 			}
 		}, TIMETOEXIT);
-
 	}
 
 	public boolean isRunning(Context ctx) {
