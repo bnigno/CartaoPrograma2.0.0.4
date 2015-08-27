@@ -853,7 +853,7 @@ public class MainActivity extends Activity implements LocationSource,
 
 											runOnUiThread(new Runnable() {
 												public void run() {
-													 caminhoPercorrido();
+													// caminhoPercorrido();
 													logx(10, ocx);
 													check();
 													// getBatteryLevel();
