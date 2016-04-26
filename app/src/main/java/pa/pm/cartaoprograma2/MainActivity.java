@@ -988,7 +988,7 @@ public class MainActivity extends Activity implements LocationSource,
 
 					}
 					if (!LoginActivity.idCard.equals("test")) {
-					String url1 = "http://productiveinc.com/xmlObterNotificacoes.php?idCard="
+					String url1 = EnderecoServidor.OBTER_NOTIFICACAO
 							+ LoginActivity.idMap + "&idLast=" + idLast;
 					ArrayList<HashMap<String, String>> menuItems = new ArrayList<HashMap<String, String>>();
 
@@ -1411,7 +1411,7 @@ public class MainActivity extends Activity implements LocationSource,
 			emocorrencia = true;
 			ocorrencia.setBackgroundColor(Color.RED);
 			t.setGravity(Gravity.CENTER);
-			t.setText("EM OCORRENCIA");
+			t.setText("EM OCORRÊNCIA");
 			t.setTextColor(Color.RED);
 			t.setTextSize(30);
 			emOcorrencia(LoginActivity.idCard, lat, lng, Logs.Data(),
@@ -1587,7 +1587,7 @@ public class MainActivity extends Activity implements LocationSource,
 		//
 		if(LoginActivity.idCard.equals("local")){initLocation(loc);}
 		else{
-			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.45684039, -48.48398566),15));
+			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
 
 		}
 		//
@@ -1757,7 +1757,7 @@ public class MainActivity extends Activity implements LocationSource,
 
 		{
 			public void run() {
-				String url1 = "http://productiveinc.com/xmlInformarOcorrencia.php?idCard="
+				String url1 = EnderecoServidor.INFORMAR_OCORRENCIA
 						+ idx
 						+ "&lat="
 						+ ltx

@@ -19,6 +19,7 @@ import org.apache.http.impl.conn.SingleClientConnManager;
 import org.apache.http.params.BasicHttpParams;
 import org.apache.http.params.HttpParams;
 
+import pa.pm.cartaoprograma2.EnderecoServidor;
 import pa.pm.cartaoprograma2.LoginActivity;
 import pa.pm.cartaoprograma2.MainActivity;
 
@@ -249,7 +250,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
 									HttpClient httpclient = new DefaultHttpClient();
 									HttpPost httppost = new HttpPost(
-											"http://productiveinc.com/xmlRecebeLog.php?idCard="
+											EnderecoServidor.RECEBER_LOG
 													+ LoginActivity.idCard
 													+ "&lat=" + la + "&lng="
 													+ ln + "&data=" + d

@@ -143,7 +143,7 @@ public class LoginActivity extends Activity implements OnInitListener {
 					} else {
 						 Uname = usrnm.getText().toString();
 						 pass = pswd.getText().toString();
-						url1 = "http://productiveinc.com/xmlObterCP.php?cpf="
+						url1 = EnderecoServidor.OBTER_CP
 								+ Uname.replaceAll(" ", "")
 								+ "&pass="
 								+ pass.replaceAll(" ", "");
@@ -308,7 +308,7 @@ public class LoginActivity extends Activity implements OnInitListener {
 	private void buildAlertMessageNoGps() {
 		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setMessage(
-				"O GPS parece estar desativado, ir as configurações para ativá-lo?")
+				"O GPS parece estar desativado, deseja ir as configurações para ativá-lo?")
 				.setCancelable(false)
 				.setPositiveButton("Sim",
 						new DialogInterface.OnClickListener() {
@@ -334,7 +334,7 @@ public class LoginActivity extends Activity implements OnInitListener {
 	private void buildAlertMessageNoNetwork() {
 
 		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setMessage("Nçao foi possível se conectar a rede")
+		builder.setMessage("Não foi possível se conectar a rede")
 				.setCancelable(false)
 
 				.setPositiveButton("Verificar em configurações",

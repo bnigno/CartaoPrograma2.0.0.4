@@ -86,7 +86,7 @@ public class Polygons {
 			{
 				public void run() {
 
-					String url1 = "http://productiveinc.com/xmlObterMancha.php?type=2&dataStart=2014-02-01&dataFinish=2014-06-01";
+					String url1 = EnderecoServidor.OBTER_MANCHA;
 
 					ArrayList<HashMap<String, String>> menuItems = new ArrayList<HashMap<String, String>>();
 					System.out.println("Key: " + url1);

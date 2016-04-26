@@ -1,477 +1,569 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:2:1-121:12
 	package
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:5:5
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from AndroidManifest.xml:8:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-ads:7.8.0:23:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-appindexing:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-appindexing:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-appinvite:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-appstate:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-cast:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.android.support:mediarouter-v7:22.2.0:20:5
-MERGED from com.android.support:appcompat-v7:22.2.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-drive:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-fitness:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-location:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-games:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-drive:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-gcm:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-identity:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-location:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-nearby:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-panorama:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-plus:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-safetynet:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-vision:7.8.0:4:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-wallet:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-identity:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
-MERGED from com.google.android.gms:play-services-wearable:7.8.0:18:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
-MERGED from com.android.support:support-v4:22.2.0:20:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:10:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:9:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 permission#pa.pm.cartaoprograma2.permission.MAPS_RECEIVE
-ADDED from AndroidManifest.xml:12:6
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:12:6-14:47
 	android:protectionLevel
-		ADDED from AndroidManifest.xml:14:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:14:9-44
 	android:name
-		ADDED from AndroidManifest.xml:13:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:13:9-69
 uses-feature#0x00020000
-ADDED from AndroidManifest.xml:16:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:23:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:23:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:23:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:23:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:16:5-18:34
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from AndroidManifest.xml:17:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:17:9-41
 	android:required
-		ADDED from AndroidManifest.xml:18:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:18:9-32
 uses-permission#pa.pm.cartaoprograma2.permission.MAPS_RECEIVE
-ADDED from AndroidManifest.xml:20:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:20:5-85
 	android:name
-		ADDED from AndroidManifest.xml:20:22
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:20:22-82
 uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:21:1
-MERGED from com.google.android.gms:play-services-ads:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-appinvite:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-gcm:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-wallet:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:1-62
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from AndroidManifest.xml:21:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:18-60
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:22:1
-MERGED from com.google.android.gms:play-services-ads:7.8.0:21:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-nearby:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:1-74
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from AndroidManifest.xml:22:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:18-72
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:23:1
-MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:1-76
 	android:name
-		ADDED from AndroidManifest.xml:23:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:18-74
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from AndroidManifest.xml:24:2
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:2-72
 	android:name
-		ADDED from AndroidManifest.xml:24:19
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:19-70
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from AndroidManifest.xml:25:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:25:5-75
 	android:name
-		ADDED from AndroidManifest.xml:25:22
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:25:22-73
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from AndroidManifest.xml:26:4
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:4-87
 	android:name
-		ADDED from AndroidManifest.xml:26:21
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:21-84
 uses-permission#android.permission.WAKE_LOCK
-ADDED from AndroidManifest.xml:27:4
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:4-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from AndroidManifest.xml:27:21
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:21-64
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from AndroidManifest.xml:28:4
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:4-90
 	android:name
-		ADDED from AndroidManifest.xml:28:21
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:21-71
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from AndroidManifest.xml:29:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:5-78
 	android:name
-		ADDED from AndroidManifest.xml:29:22
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:22-76
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from AndroidManifest.xml:30:1
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:1-93
 	android:name
-		ADDED from AndroidManifest.xml:30:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:18-91
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from AndroidManifest.xml:33:1
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:33:1-76
 	android:name
-		ADDED from AndroidManifest.xml:33:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:33:18-74
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from AndroidManifest.xml:34:1
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:1-74
 	android:name
-		ADDED from AndroidManifest.xml:34:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:18-72
 uses-permission#android.permission.GET_TASKS
-ADDED from AndroidManifest.xml:35:1
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:1-36:19
 	android:name
-		ADDED from AndroidManifest.xml:35:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:18-61
 application
-ADDED from AndroidManifest.xml:37:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-ads:7.8.0:24:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:24:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-appindexing:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-analytics:7.8.0:24:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-appindexing:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-appinvite:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-appstate:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-cast:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.android.support:mediarouter-v7:22.2.0:22:5
-MERGED from com.android.support:appcompat-v7:22.2.0:22:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-drive:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-fitness:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-location:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-games:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-drive:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-gcm:7.8.0:24:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-identity:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-location:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-nearby:7.8.0:20:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-panorama:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-plus:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-safetynet:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-vision:7.8.0:5:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-identity:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
-MERGED from com.google.android.gms:play-services-wearable:7.8.0:19:5
-MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
-MERGED from com.android.support:support-v4:22.2.0:22:5
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:37:5-119:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from AndroidManifest.xml:40:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:40:9-41
 	android:allowBackup
-		ADDED from AndroidManifest.xml:38:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:38:9-35
 	android:icon
-		ADDED from AndroidManifest.xml:39:9
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:39:9-40
 	android:theme
-		ADDED from AndroidManifest.xml:41:8
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:41:8-81
 activity#pa.pm.cartaoprograma2.MainActivity
-ADDED from AndroidManifest.xml:44:16
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:44:16-54:20
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:48:14
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:48:14-51
 	android:label
-		ADDED from AndroidManifest.xml:47:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:47:13-45
 	android:configChanges
-		ADDED from AndroidManifest.xml:46:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:46:13-74
 	android:name
-		ADDED from AndroidManifest.xml:45:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:45:13-62
 action#android.intent.action.MAIN2
-ADDED from AndroidManifest.xml:50:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:50:17-70
 	android:name
-		ADDED from AndroidManifest.xml:50:25
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:50:25-67
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:52:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from AndroidManifest.xml:52:27
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:52:27-74
 activity#pa.pm.cartaoprograma2.LoginActivity
-ADDED from AndroidManifest.xml:55:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:55:9-65:20
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:59:14
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:59:14-51
 	android:label
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:58:13-45
 	android:configChanges
-		ADDED from AndroidManifest.xml:57:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:57:13-74
 	android:name
-		ADDED from AndroidManifest.xml:56:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:56:13-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:60:15
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:60:15-64:28
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:61:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from AndroidManifest.xml:61:25
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:61:25-66
 activity#pa.pm.cartaoprograma2.Maps
-ADDED from AndroidManifest.xml:66:10
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:66:10-76:20
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:70:14
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:70:14-51
 	android:label
-		ADDED from AndroidManifest.xml:69:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:69:13-45
 	android:configChanges
-		ADDED from AndroidManifest.xml:68:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:68:13-74
 	android:name
-		ADDED from AndroidManifest.xml:67:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:67:13-54
 action#android.intent.action.MAIN1
-ADDED from AndroidManifest.xml:72:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:72:17-70
 	android:name
-		ADDED from AndroidManifest.xml:72:25
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:72:25-67
 activity#pa.pm.cartaoprograma2.Config
-ADDED from AndroidManifest.xml:77:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:77:9-87:20
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:81:14
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:81:14-51
 	android:label
-		ADDED from AndroidManifest.xml:80:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:80:13-45
 	android:configChanges
-		ADDED from AndroidManifest.xml:79:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:79:13-74
 	android:name
-		ADDED from AndroidManifest.xml:78:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:78:13-56
 activity#pa.pm.cartaoprograma2.ProximityActivity
-ADDED from AndroidManifest.xml:88:10
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:88:10-95:20
 	android:label
-		ADDED from AndroidManifest.xml:90:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:90:13-45
 	android:name
-		ADDED from AndroidManifest.xml:89:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:89:13-46
 intent-filter#android.intent.category.DEFAULT+pa.pm.cartaoprograma2.proximity
-ADDED from AndroidManifest.xml:91:13
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:91:13-94:29
 action#pa.pm.cartaoprograma2.proximity
-ADDED from AndroidManifest.xml:92:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:92:17-73
 	android:name
-		ADDED from AndroidManifest.xml:92:25
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:92:25-71
 category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:93:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:93:17-76
 	android:name
-		ADDED from AndroidManifest.xml:93:27
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:93:27-73
 activity#pa.pm.cartaoprograma2.NotificationView
-ADDED from AndroidManifest.xml:97:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:97:9-103:20
 	android:label
-		ADDED from AndroidManifest.xml:99:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:99:13-45
 	android:name
-		ADDED from AndroidManifest.xml:98:13
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:98:13-45
 intent-filter#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:100:13
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:100:13-102:29
 service#pa.pm.cartaoprograma2.SendService
-ADDED from AndroidManifest.xml:104:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:104:9-92
 	android:enabled
-		ADDED from AndroidManifest.xml:104:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:104:18-40
 	android:name
-		ADDED from AndroidManifest.xml:104:41
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:104:41-89
 service#pa.pm.cartaoprograma2.CheckinService
-ADDED from AndroidManifest.xml:106:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:106:9-111:19
 	android:name
-		ADDED from AndroidManifest.xml:106:18
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:106:18-69
 intent-filter#CHECKIN_SERVICE_CARTAOPROGRAMA+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:107:13
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:107:13-110:29
 action#CHECKIN_SERVICE_CARTAOPROGRAMA
-ADDED from AndroidManifest.xml:108:17
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:108:17-73
 	android:name
-		ADDED from AndroidManifest.xml:108:25
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:108:25-70
 meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:113:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
-MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:113:9-115:61
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from AndroidManifest.xml:115:5
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:115:5-58
 	android:name
-		ADDED from AndroidManifest.xml:114:5
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:114:5-50
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from AndroidManifest.xml:116:9
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:116:9-118:74
 	android:value
-		ADDED from AndroidManifest.xml:118:17
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:118:17-72
 	android:name
-		ADDED from AndroidManifest.xml:117:17
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:117:17-66
 activity#com.google.android.gms.ads.AdActivity
-ADDED from com.google.android.gms:play-services-ads:7.8.0:26:9
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from com.google.android.gms:play-services-ads:7.8.0:28:13
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
 	android:theme
-		ADDED from com.google.android.gms:play-services-ads:7.8.0:29:13
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from com.google.android.gms:play-services-ads:7.8.0:27:13
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from com.google.android.gms:play-services-ads:7.8.0:30:9
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from com.google.android.gms:play-services-ads:7.8.0:31:13
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from com.google.android.gms:play-services-ads:7.8.0:30:19
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from AndroidManifest.xml:2:1 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:29:13-62
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from com.google.android.gms:play-services-gcm:7.8.0:21:5
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from com.google.android.gms:play-services-gcm:7.8.0:21:22
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from com.google.android.gms:play-services-wallet:7.8.0:21:5
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:22-79
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:31:11-35
 	android:name
-		ADDED from com.google.android.gms:play-services-wallet:7.8.0:21:22
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from com.google.android.gms:play-services-wallet:7.8.0:22:5
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:35:11-33
 	android:name
-		ADDED from com.google.android.gms:play-services-wallet:7.8.0:22:22
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:42:11-82

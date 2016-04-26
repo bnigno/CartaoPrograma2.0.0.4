@@ -49,7 +49,7 @@ public class Markers {
 	String TYPE;
 	ItemListView item1;
 	String textlist;
-	
+
 
 	private Handler handler = new Handler();
 
@@ -218,7 +218,7 @@ public class Markers {
 					/* Fim dados locais */
 
 					if (!LoginActivity.idCard.equals("test")) {
-						String url1 = "http://productiveinc.com/xmlObterPontos.php?idCard="
+						String url1 = EnderecoServidor.OBTER_PONTOS
 								+ LoginActivity.idCard;
 
 						ArrayList<HashMap<String, String>> menuItems = new ArrayList<HashMap<String, String>>();
@@ -388,6 +388,8 @@ public class Markers {
 														.parseDouble(LAT),
 														Double.parseDouble(LNG));
 
+												System.out.println("Markeru: " + i + "   " + Location3);
+
 												Handler handler = new Handler(
 														Looper.getMainLooper());
 												handler.post(new Runnable() {
@@ -396,8 +398,6 @@ public class Markers {
 														Polylines.addpolylines(
 																myMap,
 																Location3);
-														//System.out
-														//.println("Markeru: " + i + "   " + Location3);
 													}
 												});
 											}

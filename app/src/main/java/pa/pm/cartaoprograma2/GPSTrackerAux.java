@@ -3,6 +3,7 @@ package pa.pm.cartaoprograma2;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Criteria;
 import android.location.Location;
@@ -10,6 +11,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -19,6 +21,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
 import java.util.ArrayList;
+
+import pa.pm.localdb.ConfigDataBaseHelper;
 
 public class GPSTrackerAux extends Service implements LocationListener {
 
@@ -44,16 +48,18 @@ public class GPSTrackerAux extends Service implements LocationListener {
     Marker marker = null;
 
     // The minimum distance to change Updates in meters
-    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 4; // 20 meters,
+    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 1; // 1 metro
     // modificado
     // para
     // testes
 
     // The minimum time between updates in milliseconds
-    private static final long MIN_TIME_BW_UPDATES = 10000 * 30; // 1 minute,
+    private static final long MIN_TIME_BW_UPDATES = 60000; // 1 minuto
 
     // Declaring a Location Manager
     protected LocationManager locationManager;
+
+    static ConfigDataBaseHelper dbConfig;
 
     public GPSTrackerAux(Context context) {
         this.mContext = context;
@@ -63,6 +69,8 @@ public class GPSTrackerAux extends Service implements LocationListener {
     public LatLng getLocation() {
 
         try {
+
+            System.out.println("RIDE MARKER: 1");
             locationManager = (LocationManager) mContext
                     .getSystemService(LOCATION_SERVICE);
 
@@ -78,24 +86,10 @@ public class GPSTrackerAux extends Service implements LocationListener {
                 // no network provider is enabled
             } else {
                 this.canGetLocation = true;
-                if (isNetworkEnabled) {
-                    locationManager.requestLocationUpdates(
-                            LocationManager.NETWORK_PROVIDER,
-                            MIN_TIME_BW_UPDATES,
-                            MIN_DISTANCE_CHANGE_FOR_UPDATES, this);
-                    Log.d("location", "Network");
-                    // if (locationManager != null) {
-                    location = locationManager
-                            .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-                    if (location != null) {
-                        latitude = location.getLatitude();
-                        longitude = location.getLongitude();
-                    }
-                    // }
-                }
+
                 // if GPS Enabled get lat/long using GPS Services
                 if (isGPSEnabled) {
-                    // if (location == null) {
+
                     locationManager.requestLocationUpdates(
                             LocationManager.GPS_PROVIDER, MIN_TIME_BW_UPDATES,
                             MIN_DISTANCE_CHANGE_FOR_UPDATES, this);
@@ -104,27 +98,33 @@ public class GPSTrackerAux extends Service implements LocationListener {
                         locationGps = locationManager
                                 .getLastKnownLocation(LocationManager.GPS_PROVIDER);
                         if (locationGps != null) {
-                            latitude = locationGps.getLatitude();
-                            longitude = locationGps.getLongitude();
+                            latlng = new LatLng(location.getLatitude(), location.getLongitude());
                         }
                     }
-                    // }
+
                 }
+
+                else if (isNetworkEnabled) {
+                    locationManager.requestLocationUpdates(
+                            LocationManager.NETWORK_PROVIDER,
+                            MIN_TIME_BW_UPDATES,
+                            MIN_DISTANCE_CHANGE_FOR_UPDATES, this);
+                    Log.d("location", "Network");
+
+                    location = locationManager
+                            .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                    if (location != null) {
+                        latlng = new LatLng(location.getLatitude(), location.getLongitude());
+                    }
+
+                }
+
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        if (locationGps != null && location != null) {
-            if (locationGps.getAccuracy() < location.getAccuracy()) {
-                location = locationGps;
-            }
-        }
-
-        if (location != null) {
-            latlng = new LatLng(location.getLatitude(), location.getLongitude());
-        }
         return latlng;
     }
 
@@ -133,9 +133,9 @@ public class GPSTrackerAux extends Service implements LocationListener {
      * app
      * */
     public void stopUsingGPS() {
-        if (locationManager != null) {
+
+        if (locationManager != null)
             locationManager.removeUpdates(GPSTrackerAux.this);
-        }
     }
 
     /**
@@ -211,9 +211,12 @@ public class GPSTrackerAux extends Service implements LocationListener {
                     .position(points.get(ultimoLatLng))
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.pmpa)));
 
+            MainActivity.dbConfig.addRide(LoginActivity.idCard, getLocation().latitude, getLocation().longitude);
+
+            System.out.println("RIDE MARKER: "+ LoginActivity.idCard +" ="+ getLocation().latitude +", "+ getLocation().longitude);
 
             lineOptions = new PolylineOptions().addAll(points)
-                    .color(Color.BLACK);
+                    .color(Color.parseColor(MainActivity.dbConfig.getColorConfig("colorlocalizacaoatual")));
             MainActivity.myMap.addPolyline(lineOptions);
             
         }
