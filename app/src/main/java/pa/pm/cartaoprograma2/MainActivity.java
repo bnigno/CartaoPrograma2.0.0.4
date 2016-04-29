@@ -1588,6 +1588,7 @@ public class MainActivity extends Activity implements LocationSource,
 		if(LoginActivity.idCard.equals("local")){initLocation(loc);}
 		else{
 			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
+			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
 
 		}
 		//

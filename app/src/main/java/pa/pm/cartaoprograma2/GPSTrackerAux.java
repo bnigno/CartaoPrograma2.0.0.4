@@ -211,7 +211,7 @@ public class GPSTrackerAux extends Service implements LocationListener {
                     .position(points.get(ultimoLatLng))
                     .icon(BitmapDescriptorFactory.fromResource(R.drawable.pmpa)));
 
-            MainActivity.dbConfig.addRide(LoginActivity.idCard, getLocation().latitude, getLocation().longitude);
+            MainActivity.dbConfig.addMarkerRide(LoginActivity.idCard, getLocation().latitude, getLocation().longitude);
 
             System.out.println("RIDE MARKER: "+ LoginActivity.idCard +" ="+ getLocation().latitude +", "+ getLocation().longitude);
 

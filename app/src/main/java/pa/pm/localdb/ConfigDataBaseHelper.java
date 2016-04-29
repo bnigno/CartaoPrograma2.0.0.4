@@ -7,6 +7,11 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import pa.pm.cartaoprograma2.MarkerRide;
+
 public class ConfigDataBaseHelper extends SQLiteOpenHelper {
 
     // database version
@@ -98,7 +103,7 @@ public class ConfigDataBaseHelper extends SQLiteOpenHelper {
     }
 
 
-    public void addRide(String idCard, Double lat, Double lng) {
+    public void addMarkerRide(String idCard, Double lat, Double lng) {
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
@@ -111,4 +116,28 @@ public class ConfigDataBaseHelper extends SQLiteOpenHelper {
         db.close(); // Closing database connection
     }
 
+
+    public List<MarkerRide> getAllMarkersRide() {
+        List<MarkerRide> markerRideList = new ArrayList<MarkerRide>();
+        // Select All Query
+        String selectQuery = "SELECT  * FROM " + MARKER_RIDE_TABLE;
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        // looping through all rows and adding to list
+        if (cursor.moveToFirst()) {
+            do {
+                MarkerRide markerRide = new MarkerRide();
+                markerRide.setIdCard(cursor.getInt(1));
+                markerRide.setLat(cursor.getDouble(2));
+                markerRide.setLng(cursor.getDouble(3));
+                // Adding markerRide to list
+                markerRideList.add(markerRide);
+            } while (cursor.moveToNext());
+        }
+
+        // return markerRide list
+        return markerRideList;
+    }
 }

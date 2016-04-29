@@ -30,6 +30,13 @@
         <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_fb4877fa372fec79055e8f002401910eda60a5f5.jar" />
     </item>
     <item
+        jar="C:\Users\Usuario\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\pre-dexed\debug\library-1.0.19_9ccf5d5ad54d95b1e9f8176e6e73ae545d076a66.jar" />
+    </item>
+    <item
         jar="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.1"

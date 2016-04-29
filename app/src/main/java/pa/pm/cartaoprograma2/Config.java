@@ -66,6 +66,8 @@ public class Config extends Activity {
 	Spinner spinner3;
 	Spinner spinner4;
 	String azul="AZUL";
+
+
 	public void addItemsOnLocalizaçãoatual() {
 
 		spinner1 = (Spinner) findViewById(R.id.spinner1);
