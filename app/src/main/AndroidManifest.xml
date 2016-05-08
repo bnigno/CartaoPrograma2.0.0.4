@@ -18,22 +18,30 @@
         android:required="true"/>
     
     <uses-permission android:name="pa.pm.cartaoprograma2.permission.MAPS_RECEIVE" />
-<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
- <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-   <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-   <uses-permission android:name="android.permission.WAKE_LOCK" />
-   <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
-<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-<!-- The following two permissions are not required to use
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <!-- The following two permissions are not required to use
      Google Maps Android API v2, but are recommended. -->
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<uses-permission android:name="android.permission.GET_TASKS" >
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS" >
 </uses-permission>
+
+    <!-- Required to register a SyncStatusObserver to display a "syncing..." progress indicator. -->
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <!-- Required to enable our SyncAdapter after it's created. -->
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <!-- Required because we're manually creating a new account. -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/pmicon"
@@ -108,6 +116,27 @@
                 <action android:name="CHECKIN_SERVICE_CARTAOPROGRAMA" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </service>
+
+        <!-- Since this ContentProvider is not exported, it will not be accessible outside of this app's
+        package. -->
+        <provider
+            android:name="pa.pm.sync.provider.CartaoProvider"
+            android:authorities="pa.pm.sync"
+            android:exported="false" />
+
+        <!-- This service implements our SyncAdapter. It needs to be exported, so that the system
+        sync framework can access it. -->
+        <service android:name="pa.pm.sync.SyncService"
+            android:exported="true">
+            <!-- This intent filter is required. It allows the system to launch our sync service
+            as needed. -->
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <!-- This points to a required XML file which describes our SyncAdapter. -->
+            <meta-data android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
         </service>
 
         <meta-data
