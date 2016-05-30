@@ -28,7 +28,7 @@ public class SyncService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.i(TAG, "Service created");
+        Log.i(TAG, "SyncService created");
         synchronized (sSyncAdapterLock) {
             if (sSyncAdapter == null) {
                 sSyncAdapter = new SyncAdapter(getApplicationContext(), true);
@@ -42,7 +42,7 @@ public class SyncService extends Service {
      */
     public void onDestroy() {
         super.onDestroy();
-        Log.i(TAG, "Service destroyed");
+        Log.i(TAG, "SyncService destroyed");
     }
 
     /**

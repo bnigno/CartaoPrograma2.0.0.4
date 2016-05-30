@@ -112,6 +112,8 @@ public class ConfigDataBaseHelper extends SQLiteOpenHelper {
         values.put(KEY_LAT, lat);
         values.put(KEY_LNG, lng);
 
+        System.out.println("RIDE MARKER: "+ idCard +" ="+ lat +", "+ lng);
+
         db.insert(MARKER_RIDE_TABLE, null, values);
         db.close(); // Closing database connection
     }
@@ -139,5 +141,27 @@ public class ConfigDataBaseHelper extends SQLiteOpenHelper {
 
         // return markerRide list
         return markerRideList;
+    }
+
+
+    public MarkerRide getLastMarkerRide() {
+        MarkerRide markerRide = new MarkerRide();
+        // Select All Query
+        String selectQuery = "SELECT TOP 1 * FROM "+ MARKER_RIDE_TABLE +" ORDER BY "+ KEY_ID_MARKER_RIDE +" DESC";
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        // looping through all rows and adding to list
+        if (cursor.moveToFirst()) {
+            do {
+                markerRide.setIdCard(cursor.getInt(1));
+                markerRide.setLat(cursor.getDouble(2));
+                markerRide.setLng(cursor.getDouble(3));
+            } while (cursor.moveToNext());
+        }
+
+        // return markerRide list
+        return markerRide;
     }
 }

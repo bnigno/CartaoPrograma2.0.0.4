@@ -2,7 +2,7 @@ package pa.pm.cartaoprograma2;
 
 public class EnderecoServidor {
 
-    private static String ip = "http://192.168.0.101:80/";
+    private static String ip = "http://192.168.0.105:80/";
 
     static String OBTER_NOTIFICACAO = ip+"xmlObterNotificacoes.php?idCard="; // GET
 
@@ -17,4 +17,6 @@ public class EnderecoServidor {
     public static String RECEBER_LOG = ip+"xmlRecebeLog.php?idCard=";
 
     public static String ENVIAR_ROTA_PERCORRIDA = ip+"xmlEnviarRotaPercorrida.php";  // POST
+
+    public static String ENVIAR_ARRAY_ROTA_PERCORRIDA = ip+"xmlEnviarArrayRotaPercorrida.php";  // POST
 }

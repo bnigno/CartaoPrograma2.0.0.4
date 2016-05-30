@@ -36,7 +36,7 @@ public class GenericAccountService extends Service {
 
     @Override
     public void onCreate() {
-        Log.i(TAG, "Service created");
+        Log.i(TAG, "GenericAccountService created");
         mAuthenticator = new Authenticator(this);
     }
 

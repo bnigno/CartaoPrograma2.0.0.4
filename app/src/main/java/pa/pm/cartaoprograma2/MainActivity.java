@@ -31,6 +31,8 @@ import pa.pm.log.CreateFolders;
 import pa.pm.log.Logs;
 import pa.pm.localdb.DataBaseHelper;
 import pa.pm.localdb.XMLParser;
+import pa.pm.sync.SyncUtils;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -48,6 +50,7 @@ import com.google.android.gms.maps.model.Polygon;
 import com.google.android.gms.maps.model.PolygonOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
+import android.content.ContentResolver;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -1539,11 +1542,23 @@ public class MainActivity extends Activity implements LocationSource,
 		int minutes = c.get(Calendar.MINUTE);
 		String min = "tempo=" + minutes;
 		Log.d("Background Task", min);
+
+		myMap.setLocationSource(this);
 		myMap.setMyLocationEnabled(true);
 		myMap.getUiSettings().setAllGesturesEnabled(true);
 		myMap.getUiSettings().setZoomGesturesEnabled(true);
 		myMap.getUiSettings().setZoomControlsEnabled(false);
 		myMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+		Location loc = new Location("dummyprovider");
+		//
+		if(LoginActivity.idCard.equals("local")){initLocation(loc);}
+		else{
+			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
+			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
+
+		}
+
 
 		config = (Button) findViewById(R.id.config);
 		ocorrencia = (Button) findViewById(R.id.ocorrencia);
@@ -1583,15 +1598,10 @@ public class MainActivity extends Activity implements LocationSource,
 		lWebView.setVisibility(View.GONE);
 		ajuda = false;
 		img = (ImageView) findViewById(R.id.image);
-		Location loc = new Location("dummyprovider");
-		//
-		if(LoginActivity.idCard.equals("local")){initLocation(loc);}
-		else{
-			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
-			myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-1.28704, -47.9464),15));
 
-		}
-		//
+		//para usar o syncAdapter
+		SyncUtils.CreateSyncAccount(instancia);
+
 		myMap.setInfoWindowAdapter(new InfoWindowAdapter() {
 
 			@Override
@@ -1672,6 +1682,11 @@ public class MainActivity extends Activity implements LocationSource,
 
 		return false;
 	}
+
+
+
+
+
 
 	/*
 	 * O aplicativo se auto-verificará quanto a integridade de seu código fonte,
