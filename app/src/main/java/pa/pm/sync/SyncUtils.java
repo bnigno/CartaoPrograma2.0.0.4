@@ -25,11 +25,15 @@ public class SyncUtils {
      * @param context Context
      */
     public static void CreateSyncAccount(Context context) {
+
+        Account account = GenericAccountService.GetAccount();
+        ContentResolver.addPeriodicSync(account, CONTENT_AUTHORITY, new Bundle(), SYNC_FREQUENCY);
+
         //boolean newAccount = false;
         //boolean setupComplete = PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_SETUP_COMPLETE, false);
 
         // Create account, if it's missing. (Either first run, or user has deleted account.)
-        Account account = GenericAccountService.GetAccount();
+       /* Account account = GenericAccountService.GetAccount();
         AccountManager accountManager = (AccountManager) context.getSystemService(Context.ACCOUNT_SERVICE);
         if (accountManager.addAccountExplicitly(account, null, null)) {
             // Inform the system that this account supports sync
@@ -46,7 +50,7 @@ public class SyncUtils {
         }
         else{
             Log.e(TAG, "erro no SyncUtils.CreateSyncAccount()");
-        }
+        }*/
 
         // Schedule an initial sync if we detect problems with either our account or our local
         // data has been deleted. (Note that it's possible to clear app data WITHOUT affecting

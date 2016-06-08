@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\config.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\notification.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\info_window_layout.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\info_window_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\activity_main2.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\item_listview.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\item_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\login.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\simple_spinner_item.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\simple_spinner_item.xml"
+    }
+]

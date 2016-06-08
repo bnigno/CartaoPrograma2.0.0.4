@@ -119,6 +119,21 @@
         </service>
 
 
+
+        <!-- ContentProvider to store feed data.
+
+        The "authorities" here are defined as part of a ContentProvider interface. It's used here
+        as an attachment point for the SyncAdapter. See res/xml/syncadapter.xml and
+        SyncService.java.
+
+        Since this ContentProvider is not exported, it will not be accessible outside of this app's
+        package. -->
+        <provider
+            android:name="pa.pm.sync.provider.CartaoProvider"
+            android:authorities="pa.pm.sync.provider"
+            android:exported="false"
+            android:syncable="true" />
+
         <!-- This service implements our SyncAdapter. It needs to be exported, so that the system
         sync framework can access it. -->
         <service android:name="pa.pm.sync.SyncService"
