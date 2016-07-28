@@ -4,6 +4,8 @@ import android.content.ContentResolver;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
+import pa.pm.cartaoprograma2.R;
+
 /**
  * Field and table name constants for
  * {@link pa.pm.sync.provider.CartaoProvider}.
@@ -15,7 +17,7 @@ public class CartaoContract {
     /**
      * Content provider authority.
      */
-    public static final String CONTENT_AUTHORITY = "pa.pm.sync";
+    public static final String CONTENT_AUTHORITY = String.valueOf(R.string.content_authority);
 
     /**
      * Base URI. (content://pa.pm.sync)

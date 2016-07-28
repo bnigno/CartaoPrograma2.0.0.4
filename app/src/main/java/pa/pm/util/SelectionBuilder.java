@@ -18,7 +18,7 @@ import java.util.Map;
  * thread safe.
  */
 public class SelectionBuilder {
-    private static final String TAG = "sync";
+    private static final String TAG = "cartaoprograma2";
 
     private String mTable = null;
     private Map<String, String> mProjectionMap = new HashMap();

@@ -5,6 +5,7 @@ import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +30,9 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter{
     public static final String TAG = "SyncAdapter";
 
     private final ContentResolver mContentResolver;
+    Context context;
+    public static final String SYNC_FINISHED = "SyncFinished";
+    public static final String SYNC_STARTED = "SyncStarted";
 
     ConfigDataBaseHelper configDataBaseHelper = new ConfigDataBaseHelper(getContext());
 
@@ -62,11 +66,16 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter{
     @Override
     public void onPerformSync(Account account, Bundle extras, String authority,
                               ContentProviderClient provider, SyncResult syncResult) {
+
         Log.i(TAG, "Beginning network synchronization");
+        Intent i = new Intent(SYNC_STARTED);
+        context.sendBroadcast(i);
 
         enviarMarkerRide(configDataBaseHelper.getLastMarkerRide());
 
         Log.i(TAG, "Network synchronization complete");
+        i = new Intent(SYNC_FINISHED);
+        context.sendBroadcast(i);
     }
 
 

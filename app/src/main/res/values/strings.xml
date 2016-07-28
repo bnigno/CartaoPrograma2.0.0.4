@@ -25,4 +25,7 @@
     <string name="digite_sua_senha">Digite sua senha</string>
     <string name="codigo_de_seguranca">Código de Segurança</string>
     <string name="sobre">Sobre</string>
+
+    <string name="auth_type">pa.pm.cartaoprograma2</string>
+    <string name="content_authority">pa.pm.cartaoprograma2</string>
 </resources>

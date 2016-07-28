@@ -2,7 +2,7 @@ package pa.pm.cartaoprograma2;
 
 public class EnderecoServidor {
 
-    private static String ip = "http://192.168.0.103:80/";
+    private static String ip = "http://tcccartaoprograma.esy.es/";
 
     public static String OBTER_NOTIFICACAO = ip+"xmlObterNotificacoes.php?idCard="; // GET
 

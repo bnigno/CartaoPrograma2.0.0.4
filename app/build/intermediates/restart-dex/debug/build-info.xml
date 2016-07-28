@@ -4,26 +4,27 @@
     api-level="17"
     density="hdpi"
     format="7"
-    timestamp="84554360026388" >
+    timestamp="55018764441552"
+    token="4023653568821389088" >
 
     <task
         name="javac"
-        duration="5620" />
+        duration="1042" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1162" />
+        duration="13" />
     <task
         name="verifier"
-        duration="277" />
+        duration="33" />
 
     <artifact
         location="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="84554360026388" >
+    <build timestamp="55018764441552" >
         <artifact
             location="C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

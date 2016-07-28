@@ -6,17 +6,17 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.util.Log;
 
 import pa.pm.sync.accounts.GenericAccountService;
+import pa.pm.sync.provider.CartaoContract;
 
 /**
  * Static helper methods for working with the sync framework.
  */
 public class SyncUtils {
     private static final String TAG = "SyncUtils";
-    private static final long SYNC_FREQUENCY = 60000; // 1 minuto
-    private static final String CONTENT_AUTHORITY = "pa.pm.sync";
+    private static final long SYNC_FREQUENCY = 60; // 1 minuto
+    private static final String CONTENT_AUTHORITY = CartaoContract.CONTENT_AUTHORITY;
     private static final String PREF_SETUP_COMPLETE = "setup_complete";
 
     /**
@@ -26,14 +26,15 @@ public class SyncUtils {
      */
     public static void CreateSyncAccount(Context context) {
 
-        Account account = GenericAccountService.GetAccount();
-        ContentResolver.addPeriodicSync(account, CONTENT_AUTHORITY, new Bundle(), SYNC_FREQUENCY);
+        //Account account = GenericAccountService.GetAccount();
+        //ContentResolver.addPeriodicSync(account, CONTENT_AUTHORITY, new Bundle(), SYNC_FREQUENCY);
 
-        //boolean newAccount = false;
-        //boolean setupComplete = PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_SETUP_COMPLETE, false);
+        boolean newAccount = false;
+        boolean setupComplete = PreferenceManager
+                .getDefaultSharedPreferences(context).getBoolean(PREF_SETUP_COMPLETE, false);
 
         // Create account, if it's missing. (Either first run, or user has deleted account.)
-       /* Account account = GenericAccountService.GetAccount();
+        Account account = GenericAccountService.GetAccount();
         AccountManager accountManager = (AccountManager) context.getSystemService(Context.ACCOUNT_SERVICE);
         if (accountManager.addAccountExplicitly(account, null, null)) {
             // Inform the system that this account supports sync
@@ -44,22 +45,17 @@ public class SyncUtils {
             // on other scheduled syncs and network utilization.
             ContentResolver.addPeriodicSync(
                     account, CONTENT_AUTHORITY, new Bundle(),SYNC_FREQUENCY);
-            //newAccount = true;
-
-            Log.i(TAG, "SyncUtils.CreateSyncAccount()");
+            newAccount = true;
         }
-        else{
-            Log.e(TAG, "erro no SyncUtils.CreateSyncAccount()");
-        }*/
 
         // Schedule an initial sync if we detect problems with either our account or our local
         // data has been deleted. (Note that it's possible to clear app data WITHOUT affecting
         // the account list, so wee need to check both.)
-       /* if (newAccount || !setupComplete) {
+        if (newAccount || !setupComplete) {
             TriggerRefresh();
             PreferenceManager.getDefaultSharedPreferences(context).edit()
                     .putBoolean(PREF_SETUP_COMPLETE, true).commit();
-        }*/
+        }
     }
 
     /**
@@ -73,14 +69,14 @@ public class SyncUtils {
      * but the user is not actively waiting for that data, you should omit this flag; this will give
      * the OS additional freedom in scheduling your sync request.
      */
-   /* public static void TriggerRefresh() {
+    public static void TriggerRefresh() {
         Bundle b = new Bundle();
         // Disable sync backoff and ignore sync preferences. In other words...perform sync NOW!
         b.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
         b.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true);
         ContentResolver.requestSync(
                 GenericAccountService.GetAccount(),      // Sync account
-                CartaoContract.CONTENT_AUTHORITY, // Content authority
+                CONTENT_AUTHORITY, // Content authority
                 b);                                      // Extras
-    }*/
+    }
 }

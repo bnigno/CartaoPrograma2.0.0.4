@@ -895,9 +895,9 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with_application = 0x7f07000f;
 		public static final int abc_toolbar_collapse_description = 0x7f070010;
 		public static final int accept = 0x7f07003e;
-		public static final int cast_notification_connected_message = 0x7f070043;
-		public static final int cast_notification_connecting_message = 0x7f070044;
-		public static final int cast_notification_disconnect = 0x7f070045;
+		public static final int cast_notification_connected_message = 0x7f070044;
+		public static final int cast_notification_connecting_message = 0x7f070045;
+		public static final int cast_notification_disconnect = 0x7f070046;
 		public static final int common_google_play_services_api_unavailable_text = 0x7f070011;
 		public static final int common_google_play_services_enable_button = 0x7f070012;
 		public static final int common_google_play_services_enable_text = 0x7f070013;
@@ -929,20 +929,20 @@ public final class R {
 		public static final int common_open_on_phone = 0x7f07002d;
 		public static final int common_signin_button_text = 0x7f07002e;
 		public static final int common_signin_button_text_long = 0x7f07002f;
-		public static final int create_calendar_message = 0x7f070047;
-		public static final int create_calendar_title = 0x7f070048;
-		public static final int decline = 0x7f070049;
+		public static final int create_calendar_message = 0x7f070049;
+		public static final int create_calendar_title = 0x7f07004a;
+		public static final int decline = 0x7f07004b;
 		public static final int mr_system_route_name = 0x7f070039;
 		public static final int mr_user_route_category_name = 0x7f07003a;
 		public static final int place_autocomplete_clear_button = 0x7f07003b;
 		public static final int place_autocomplete_search_hint = 0x7f07003c;
 		public static final int status_bar_notification_info_overflow = 0x7f07003d;
-		public static final int store_picture_message = 0x7f070059;
-		public static final int store_picture_title = 0x7f07005a;
-		public static final int tagmanager_preview_dialog_button = 0x7f07005b;
-		public static final int tagmanager_preview_dialog_message = 0x7f07005c;
-		public static final int tagmanager_preview_dialog_title = 0x7f07005d;
-		public static final int wallet_buy_button_place_holder = 0x7f07005f;
+		public static final int store_picture_message = 0x7f07005b;
+		public static final int store_picture_title = 0x7f07005c;
+		public static final int tagmanager_preview_dialog_button = 0x7f07005d;
+		public static final int tagmanager_preview_dialog_message = 0x7f07005e;
+		public static final int tagmanager_preview_dialog_title = 0x7f07005f;
+		public static final int wallet_buy_button_place_holder = 0x7f070061;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f09007c;

@@ -11,9 +11,11 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
+import pa.pm.cartaoprograma2.R;
+
 public class GenericAccountService extends Service {
     private static final String TAG = "GenericAccountService";
-    private static final String ACCOUNT_TYPE = "pa.pm.sync";
+    private static final String ACCOUNT_TYPE = String.valueOf(R.string.auth_type);
     public static final String ACCOUNT_NAME = "sync";
     private Authenticator mAuthenticator;
 

@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
-        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_dropdown_item.xml",
@@ -120,16 +120,16 @@
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.1\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
-        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_spinner_item.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",

@@ -1,0 +1,2 @@
+CHANGED,C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\pa\pm\sync\SyncUtils$override.class
