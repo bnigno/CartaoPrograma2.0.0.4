@@ -1,22 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:2:1-166:12
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:2:1-153:12
 	package
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:3:5-36
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:5:5-30
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:6:5-30
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:4:5-28
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:5:5-28
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:8:5-10:41
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:9:5-11:41
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\9.0.1\AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.1\AndroidManifest.xml:19:5-42
@@ -1117,35 +1119,35 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\Androidstud
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:10:9-38
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:11:9-38
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:10:9-35
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml
 permission#pa.pm.cartaoprograma2.permission.MAPS_RECEIVE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:12:6-14:47
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:13:6-15:47
 	android:protectionLevel
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:13:9-69
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:14:9-69
 uses-feature#0x00020000
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:16:5-18:34
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:17:5-19:34
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:18:9-41
 	android:required
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:19:9-32
 uses-permission#pa.pm.cartaoprograma2.permission.MAPS_RECEIVE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:20:5-85
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:5-85
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:20:22-82
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:22-82
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:5-66
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.1\AndroidManifest.xml:21:5-67
@@ -1182,9 +1184,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.0.1] C:\Users\Usuario
 MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.1\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:21:5-66
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:21:22-64
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:5-78
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.1\AndroidManifest.xml:22:5-79
@@ -1217,25 +1219,25 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.0.1] C:\Users\Usuario
 MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.1\AndroidManifest.xml:20:5-79
 MERGED from [com.google.android.gms:play-services-maps:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.0.1\AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:22:22-76
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:5-80
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:23:22-78
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:22-78
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:5-75
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:24:22-73
-uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:25:5-75
 	android:name
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:25:22-73
-uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:5-88
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:5-75
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:22-85
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:26:22-73
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:22-85
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:5-68
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:5-68
 MERGED from [com.google.android.gms:play-services-analytics:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.0.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.0.1\AndroidManifest.xml:25:5-67
@@ -1259,45 +1261,45 @@ MERGED from [com.google.firebase:firebase-analytics:9.0.1] C:\Users\Usuario\Andr
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.1\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-iid:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.1\AndroidManifest.xml:22:5-68
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:27:22-65
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:22-65
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:5-74
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:5-74
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:28:22-72
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:22-72
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:5-78
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:5-78
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:29:22-76
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:22-76
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:5-97
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:31:5-97
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:30:22-95
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:31:22-95
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:33:5-80
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:5-80
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:33:22-78
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:5-78
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:5-78
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:34:22-76
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:22-76
 uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:5-68
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:36:5-68
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:35:22-65
-uses-permission#android.permission.READ_SYNC_STATS
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:38:5-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:39:5-80
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:38:22-71
-uses-permission#android.permission.READ_SYNC_SETTINGS
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:39:5-77
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:39:22-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:39:22-77
 uses-permission#android.permission.WRITE_SYNC_SETTINGS
 ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:40:5-78
 	android:name
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:40:22-75
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:41:5-77
+	android:name
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:41:22-74
 application
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:42:5-164:19
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:43:5-151:19
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\9.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:24:5-32:19
@@ -2381,157 +2383,159 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\Androidstud
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:45:9-41
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:46:9-41
 	android:allowBackup
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:43:9-35
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:44:9-35
 	android:icon
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:44:9-40
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:45:9-40
 	android:theme
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:46:8-81
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:47:8-81
 activity#pa.pm.cartaoprograma2.MainActivity
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:49:16-59:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:50:16-60:20
 	android:screenOrientation
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:53:14-51
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:54:14-51
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:52:13-45
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:53:13-45
 	android:configChanges
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:51:13-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:52:13-74
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:50:13-62
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:51:13-62
 action#android.intent.action.MAIN2
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:55:17-70
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:56:17-70
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:55:25-67
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:56:25-67
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:58:27-74
 activity#pa.pm.cartaoprograma2.LoginActivity
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:60:9-70:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:61:9-71:20
 	android:screenOrientation
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:64:14-51
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:65:14-51
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:63:13-45
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:64:13-45
 	android:configChanges
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:62:13-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:63:13-74
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:61:13-63
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:62:13-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:65:15-69:28
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:66:15-70:28
 action#android.intent.action.MAIN
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:66:17-69
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:67:17-69
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:66:25-66
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:67:25-66
 activity#pa.pm.cartaoprograma2.Maps
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:71:10-81:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:72:10-82:20
 	android:screenOrientation
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:75:14-51
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:76:14-51
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:74:13-45
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:75:13-45
 	android:configChanges
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:73:13-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:74:13-74
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:72:13-54
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:73:13-54
 action#android.intent.action.MAIN1
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:77:17-70
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:78:17-70
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:77:25-67
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:78:25-67
 activity#pa.pm.cartaoprograma2.Config
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:82:9-92:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:83:9-93:20
 	android:screenOrientation
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:86:14-51
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:87:14-51
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:85:13-45
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:86:13-45
 	android:configChanges
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:84:13-74
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:85:13-74
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:83:13-56
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:84:13-56
 activity#pa.pm.cartaoprograma2.ProximityActivity
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:93:10-100:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:94:10-101:20
 	android:label
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:95:13-45
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:96:13-45
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:94:13-46
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:95:13-46
 intent-filter#android.intent.category.DEFAULT+pa.pm.cartaoprograma2.proximity
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:96:13-99:29
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:97:13-100:29
 action#pa.pm.cartaoprograma2.proximity
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:97:17-73
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:98:17-73
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:97:25-71
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:98:25-71
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:98:17-76
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:99:17-76
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:98:27-73
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:99:27-73
 activity#pa.pm.cartaoprograma2.NotificationView
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:102:9-108:20
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:103:9-109:20
 	android:label
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:105:13-45
+	android:name
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:104:13-45
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:103:13-45
 intent-filter#android.intent.category.DEFAULT
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:105:13-107:29
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:106:13-108:29
 service#pa.pm.cartaoprograma2.SendService
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:109:9-92
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:110:9-92
 	android:enabled
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:109:18-40
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:110:18-40
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:109:41-89
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:110:41-89
 service#pa.pm.cartaoprograma2.CheckinService
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:111:9-116:19
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:112:9-117:19
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:111:18-69
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:112:18-69
 intent-filter#CHECKIN_SERVICE_CARTAOPROGRAMA+android.intent.category.DEFAULT
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:112:13-115:29
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:113:13-116:29
 action#CHECKIN_SERVICE_CARTAOPROGRAMA
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:113:17-73
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:114:17-73
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:113:25-70
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:114:25-70
 provider#pa.pm.sync.provider.CartaoProvider
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:128:9-132:39
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:120:9-124:39
 	android:authorities
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:130:13-54
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:122:13-60
 	android:syncable
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:132:13-36
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:124:13-36
 	android:exported
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:131:13-37
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:123:13-37
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:129:13-62
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:121:13-62
+service#pa.pm.sync.accounts.GenericAccountService
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:126:9-132:19
+	android:name
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:126:18-74
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:127:13-129:29
+action#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:128:17-80
+	android:name
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:128:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:130:13-131:57
+	android:resource
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:131:17-54
+	android:name
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:130:24-76
 service#pa.pm.sync.SyncService
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:134:9-141:19
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:134:9-143:19
+	android:process
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:136:13-36
 	android:exported
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:135:13-36
 	android:name
 		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:134:18-55
 intent-filter#android.content.SyncAdapter
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:136:13-138:29
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:137:13-139:29
 action#android.content.SyncAdapter
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:137:17-70
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:138:17-70
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:137:25-67
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:138:25-67
 meta-data#android.content.SyncAdapter
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:139:13-140:55
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:140:13-142:55
 	android:resource
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:140:17-52
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:142:17-52
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:139:24-66
-service#pa.pm.sync.accounts.GenericAccountService
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:149:9-155:19
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:149:18-74
-intent-filter#android.accounts.AccountAuthenticator
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:150:13-152:29
-action#android.accounts.AccountAuthenticator
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:151:17-80
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:151:25-77
-meta-data#android.accounts.AccountAuthenticator
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:153:13-154:57
-	android:resource
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:154:17-54
-	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:153:24-76
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:141:17-59
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:158:9-160:61
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:145:9-147:61
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:21:9-23:69
@@ -2898,15 +2902,15 @@ MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuar
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.1\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:160:5-58
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:147:5-58
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:159:5-50
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:146:5-50
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:161:9-163:74
+ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:148:9-150:74
 	android:value
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:163:17-72
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:150:17-72
 	android:name
-		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:162:17-66
+		ADDED from C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\src\main\AndroidManifest.xml:149:17-66
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads-lite:9.0.1] C:\Users\Usuario\AndroidstudioProjects\CartaoPrograma2.0.0.4\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.1\AndroidManifest.xml:26:9-29:64

@@ -24,11 +24,11 @@
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\login.xml",
-        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\login.xml"
-    },
-    {
         "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\simple_spinner_item.xml",
         "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\login.xml",
+        "source": "C:\\Users\\Usuario\\AndroidstudioProjects\\CartaoPrograma2.0.0.4\\app\\src\\main\\res\\layout-large\\login.xml"
     }
 ]

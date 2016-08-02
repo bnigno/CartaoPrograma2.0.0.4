@@ -35,10 +35,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.GET_TASKS" />
 
-    <!-- SYNC -->
-    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
-    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <!-- Sync Adapter -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -119,42 +119,12 @@
             </intent-filter>
         </service>
 
-        <!--
-        ContentProvider to store feed data.
-
-        The "authorities" here are defined as part of a ContentProvider interface. It's used here
-        as an attachment point for the SyncAdapter. See res/xml/syncadapter.xml and
-        SyncService.java.
-
-        Since this ContentProvider is not exported, it will not be accessible outside of this app's
-        package.
-        -->
         <provider
             android:name="pa.pm.sync.provider.CartaoProvider"
-            android:authorities="pa.pm.sync.provider"
+            android:authorities="@string/content_authority"
             android:exported="false"
             android:syncable="true" />
 
-        <service
-            android:name="pa.pm.sync.SyncService"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.content.SyncAdapter" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.content.SyncAdapter"
-                android:resource="@xml/syncadapter" />
-        </service>
-
-        <!--
-        This implements the account we'll use as an attachment point for our SyncAdapter. Since
-        our SyncAdapter doesn't need to authenticate the current user (it just fetches a public RSS
-        feed), this account's implementation is largely empty.
-
-        It's also possible to attach a SyncAdapter to an existing account provided by another
-        package. In that case, this element could be omitted here.
-        -->
         <service android:name="pa.pm.sync.accounts.GenericAccountService" >
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
@@ -163,6 +133,18 @@
             <meta-data
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/authenticator" />
+        </service>
+        <service
+            android:name="pa.pm.sync.SyncService"
+            android:exported="true"
+            android:process=":sync" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
         </service>
 
         <meta-data

@@ -27,5 +27,5 @@
     <string name="sobre">Sobre</string>
 
     <string name="auth_type">pa.pm.cartaoprograma2</string>
-    <string name="content_authority">pa.pm.cartaoprograma2</string>
+    <string name="content_authority">pa.pm.cartaoprograma2.provider</string>
 </resources>

@@ -5,7 +5,6 @@ import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.util.Log;
@@ -31,51 +30,35 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter{
 
     private final ContentResolver mContentResolver;
     Context context;
-    public static final String SYNC_FINISHED = "SyncFinished";
-    public static final String SYNC_STARTED = "SyncStarted";
 
     ConfigDataBaseHelper configDataBaseHelper = new ConfigDataBaseHelper(getContext());
 
     private Map<String, String> params;
 
-    /**
-     * Constructor. Obtains handle to content resolver for later use.
-     */
     public SyncAdapter(Context context, boolean autoInitialize) {
         super(context, autoInitialize);
         mContentResolver = context.getContentResolver();
     }
 
-    /**
-     * Constructor. Obtains handle to content resolver for later use.
-     */
     public SyncAdapter(Context context, boolean autoInitialize, boolean allowParallelSyncs) {
         super(context, autoInitialize, allowParallelSyncs);
         mContentResolver = context.getContentResolver();
     }
 
-    /**
-     * Called by the Android system in response to a request to run the sync adapter. The work
-     * required to read data from the network, parse it, and store it in the content provider is
-     * done here. Extending AbstractThreadedSyncAdapter ensures that all methods within SyncAdapter
-     * run on a background thread.
-     *
-     * <p>The syncResult argument allows you to pass information back to the method that triggered
-     * the sync.
-     */
     @Override
     public void onPerformSync(Account account, Bundle extras, String authority,
                               ContentProviderClient provider, SyncResult syncResult) {
 
         Log.i(TAG, "Beginning network synchronization");
-        Intent i = new Intent(SYNC_STARTED);
-        context.sendBroadcast(i);
 
-        enviarMarkerRide(configDataBaseHelper.getLastMarkerRide());
+        try {
+            enviarMarkerRide(configDataBaseHelper.getLastMarkerRide());
+        } catch (Exception e) {
+            syncResult.hasHardError();
+            Log.e(TAG, e.getMessage(), e);
+        }
 
         Log.i(TAG, "Network synchronization complete");
-        i = new Intent(SYNC_FINISHED);
-        context.sendBroadcast(i);
     }
 
 
